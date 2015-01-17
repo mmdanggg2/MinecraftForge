@@ -53,9 +53,9 @@ public class EnumHelper
     {
         return addEnum(EnumAction.class, name);
     }
-    public static ArmorMaterial addArmorMaterial(String name, String type, int durability, int[] reductionAmounts, int enchantability)
+    public static ArmorMaterial addArmorMaterial(String name, String textureName, int durability, int[] reductionAmounts, int enchantability)
     {
-        return addEnum(ArmorMaterial.class, name, type, durability, reductionAmounts, enchantability);
+        return addEnum(ArmorMaterial.class, name, textureName, durability, reductionAmounts, enchantability);
     }
     public static EnumArt addArt(String name, String tile, int sizeX, int sizeY, int offsetX, int offsetY)
     {
